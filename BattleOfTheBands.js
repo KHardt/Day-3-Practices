@@ -2,7 +2,7 @@ let bandNumber = 0
 
 const takeNumber = function (bandName) {
     bandNumber ++
-    return bandNumber + bandName;
+    return `${bandNumber}. ${bandName}`;
     /*
         Write your awesome code here. See comments
         below for what should be returned.

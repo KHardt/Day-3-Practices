@@ -1,5 +1,6 @@
 // Create an array that contains the words in the sentence
 let sentence = ["The","walrus","danced","through","the","trees","in","the","light","of","the","moon"];
+let bang = "!";
 
 /*
     The addExcitement function should be an impure function, and accept
@@ -14,6 +15,10 @@ function addExcitement (theWordArray) {
     for (let i = 0; i < theWordArray.length; i++) {
         // Concatenate the new word onto buildMeUp
          buildMeUp.push(theWordArray[i])
+         if ((i +1) % 3 === 0) {
+             buildMeUp.push(bang.push +=1)
+             
+         }
         // Print buildMeUp to the console
         console.log(buildMeUp);
     }
